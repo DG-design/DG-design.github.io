@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'MullerRegular';
+  src: url('../fonts/MullerRegular.eot');
+  src: url('../fonts/MullerRegular.woff2') format('woff2'), url('../fonts/MullerRegular.woff') format('woff'), url('../fonts/MullerRegular.ttf') format('truetype'), url('../fonts/MullerRegular.svg#MullerRegular') format('svg'), url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype');
+}
+@font-face {
+  font-family: 'MullerBold';
+  src: url('../fonts/MullerBold.eot');
+  src: url('../fonts/MullerBold') format('woff2'), url('../fonts/MullerBold.woff') format('woff'), url('../fonts/MullerBold.ttf') format('truetype'), url('../fonts/MullerBold.svg#MullerBold') format('svg'), url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerHeavy';
+  src: url('../fonts/MullerHeavy.eot');
+  src: url('../fonts/MullerHeavy') format('woff2'), url('../fonts/MullerHeavy.woff') format('woff'), url('../fonts/MullerHeavy.ttf') format('truetype'), url('../fonts/MullerHeavy.svg#MullerHeavy') format('svg'), url('../fonts/MullerHeavy.eot?#iefix') format('embedded-opentype');
+}
+.reg {
+  font-family: 'MullerRegular', sans-serif;
+}
+.bold {
+  font-family: 'MullerBold', sans-serif;
+}
+.heavy {
+  font-family: 'MullerHeavy', sans-serif;
+}
+body {
+  font-size: 18px;
+  font-family: 'MullerRegular', sans-serif;
+}
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+header {
+  height: 100vh;
+  min-height: 600px;
+  background-color: #5d90cf;
+  color: #ffffff;
+}
+.rocket {
+  width: 44em;
+  position: relative;
+  margin-bottom: -93em;
+}
+.header-top {
+  padding-top: 2rem;
+}
+.header-nav {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+.header-nav li {
+  font-size: 1em;
+  line-height: 2.5em;
+  display: inline-block;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.header-nav li a {
+  color: #ffffff;
+}
+.header-nav li a:hover {
+  text-decoration: none;
+}
+.header-start {
+  text-align: center;
+}
+.header-start a {
+  font-size: 0.9em;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  width: 13em;
+  height: 2.7em;
+  line-height: 2.6em;
+  color: #ffffff;
+  --webkit-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.header-start a:hover {
+  color: #5d90cf;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.headr-main {
+  margin-top: 4.2em;
+}
+.headr-main h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: 'MullerHeavy', sans-serif;
+}
+.headr-main-second {
+  font-size: 1em;
+  font-family: 'MullerRegular', sans-serif;
+}
+.headr-italic {
+  font-style: italic;
+}
+.headr-btn {
+  margin-top: 2em;
+}
+.headr-btn a {
+  text-align: center;
+  display: block;
+  width: 18.7em;
+  height: 3.5em;
+  line-height: 3.5em;
+  background-color: #f3d539;
+  border-radius: 100px;
+  color: #8e5f0d;
+  --webkit-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.headr-btn a:hover {
+  background-color: #f9e999;
+  text-decoration: none;
+}
+.call-to-action {
+  margin-top: 3em;
+  position: relative;
+}
+.call-to-action img {
+  position: absolute;
+  top: 0.9em;
+  left: 18em;
+}
+section#who {
+  background: url(../img/who-bg.svg) no-repeat left -8em top -3em;
+}
+.who-headr {
+  color: #5d90cf;
+}
+.who-headr h2 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-family: 'MullerHeavy', sans-serif;
+}
+.types {
+  margin-top: 3em;
+}
+.beginer-text {
+  padding-top: 10em;
+}
+.beginer-text h4 {
+  font-family: 'MullerHeavy', sans-serif;
+  color: #5d90cf;
+  font-size: 1.2em;
+}
+.beginer-img {
+  position: relative;
+  text-align: center;
+}
+.beginer-img span {
+  z-index: 0;
+  position: absolute;
+  top: -0.1em;
+  left: 0em;
+  text-transform: uppercase;
+  font-family: 'MullerHeavy', sans-serif;
+  color: #5d90cf;
+  font-size: 5em ;
+  opacity: 0.3;
+}
+.beginer-img img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 10em;
+}
+/*# sourceMappingURL=style.css.map */
