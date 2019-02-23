@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
 .container {
-  height: 100vh;
+  height: 90vh;
   background: #333;
   display: grid;
   place-items: center;
